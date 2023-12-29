@@ -56,7 +56,7 @@ public class Gamemanager : MonoBehaviour
     {
         tijolosR--;
 
-        if(tijolosR<= 0)
+        if(tijolosR <= 0)
         {
             Vitoria();
         }
@@ -64,12 +64,13 @@ public class Gamemanager : MonoBehaviour
     }
       public void SubtrairVida()
     {
-        Vidas--;
+        vidas--;
+        AtualizarVidas();
          Destroy(ballAtual.gameObject);
          Destroy(playerAtual.gameObject);
-         if(Vidas <= 0)
+         if(vidas <= 0 )
          {
-            GameOver();
+            Gameover();
          }
          else
          {
@@ -85,7 +86,8 @@ public class Gamemanager : MonoBehaviour
     }
      public void Gameover()
     {
-        
+        final.text = "game over";
+        Invoke( nameof(Reiniciar),2);
     }
      public void Reiniciar()
     {
