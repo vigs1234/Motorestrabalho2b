@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 199010062}
   m_Layer: 0
   m_Name: Paredes (3)
-  m_TagString: Untagged
+  m_TagString: Gameover
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -284,8 +284,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199010061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0114, y: -5.5752, z: 0}
-  m_LocalScale: {x: 17.876242, y: 1.091839, z: 1}
+  m_LocalPosition: {x: -0.3093, y: -5.5752, z: 0}
+  m_LocalScale: {x: 15.905788, y: 1.091839, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -395,8 +395,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344246318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.5894, y: -0.037, z: 0}
-  m_LocalScale: {x: 4.7676735, y: 10.252116, z: 1}
+  m_LocalPosition: {x: -6.154, y: -0.037, z: 0}
+  m_LocalScale: {x: 3.8966196, y: 10.252116, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 439177625}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Tijolo
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -745,7 +745,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1143,7 +1143,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.044404
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1209,7 +1209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: 235}
+  m_AnchoredPosition: {x: -248, y: 147}
   m_SizeDelta: {x: 197.69, y: 52.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1290567560
@@ -1303,7 +1303,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 12.890343, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1413,8 +1413,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294357456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.4918, y: -0.0924, z: 0}
-  m_LocalScale: {x: 4.952613, y: 10.321459, z: 1}
+  m_LocalPosition: {x: 5.8043, y: -0.0924, z: 0}
+  m_LocalScale: {x: 3.5777676, y: 10.321459, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
